@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+  }
+  
+  tbody > tr:hover {
+      background-color: #D6EEEE;
+  }
+  
+  .botao-default {
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .botao-apagar {
+    background-color: red;
+  }
+  
+  .botao-editar {
+    background-color: green;
+  }

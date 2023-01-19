@@ -1,0 +1,79 @@
+[-31, 18, 50, 98, 4, -53, 1, -8, 15, 89, 24, -3, 0, 10, 15, 47, 50, 15, 1, 4]
+
+
+- Escreva um algoritmo para buscar apenas os números combinados (positivos ou negativos) da lista
+
+passo 1 : verifique os números da lista;
+passo 2: toda vez que a soma da divisão for 1 , esse número será impar e positivo;
+passo 3: quando o resto da divisão for 0 pular esse numero ;
+passo 4: fazer divisão de todos os números da lista;
+passo 5: quando for impar e positivo = salvar numero;
+passo 6: quando for par = descarta numero.
+
+
+
+* Verifique se teve a entrada de alguma informação;
+
+* se sim executar os próximos passos:
+ 
+  * selecione o valor e divida ele por dois, se o resto for maior que zero armazene ele, se não descartar o valor;
+    
+* repita todo o processo com o proximo numero ate o final de todos os numeros, apos isso mostre todos os numeros que passaram pela check
+
+
+
+1º escreva a lista de números a serem expostos a análise.
+2º -31, 18, 50, 98, 4, -53, 1, -8, 15, 89, 24, -3, 0, 10, 15, 47, 50, 15, 1, 4
+3º analise a lista inserida anteriormente.
+4º analise o primeiro numero se dividido por 2 e o resto seja 1. 
+5º se sim , anotar.
+6º se não descartar.
+7º repetir o passo 3, 4, 5 e 6, até verificar toda a lista.
+8º mostra o resultado anotado que corresponde a uma lista de números impares.
+
+[-31, 18, 50, 98, 4, -53, 1, -8, 15, 89, 24, -3, 0, 10, 15, 47, 50, 15, 1, 4]
+-31
+
+1° - verifique os números da lista 
+2° - verifique o primeiro numero da esquerda para direita
+3° - dividir por 2, 
+4° - se o resto for igual a 1, coloque o mesmo na linha abaixo e fique satisfeito para o próximo item da lista
+5° - senao aceitou para o proximo item da lista
+6° - realize o mesmo procedimento até analisar todos os itens da lista
+
+
+Ler primeiro número da lista: [ -31, 18, 50, 98, 4, -53, 1, -8, 15, 89, 24, -3, 0, 10, 15, 47, 50, 15, 1, 4 ]
+
+
+Passo 1 
+             ler o número
+             dividir o número por 2 e se o resto da divisão for diferente de 0 (então o número é combinado)
+             
+               se o número para o total
+                     deixar o número armazenado e seguir para o próximo passo
+
+   senão
+         descartar o número e seguir para o próximo passo
+Passo 2 Existe um próximo número na lista depois desse?
+	
+	se sim 
+		atualizando o número atual para o próximo número da lista e
+		volte para o passo 1
+	senão
+		mostrar todos os números armazenados
+ 
+	fim
+
+
+
+LÓGICA PROGRAMAÇÃO - aplicar todos esses fundamentos para resolver um problema
+
+-> dados - entrada -> entrada de dados -> 18
+
+-> informação - output -> saída/resultado -> maior idade
+
+-> estruturas condicionais - desvio de fluxos
+
+-> estruturas de repetição - formas de repetir um determinado conjunto de instruções
+
+-> rotinas - conjunto de instruções que são executadas conforme a necessidade

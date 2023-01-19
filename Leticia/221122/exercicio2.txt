@@ -1,0 +1,56 @@
+[-31, -18, 50, 98, 4, -53, 1, -8, 15, 89, 24, -3, 0, 10, 15, 47, 50, 15, 1, 4]
+
+
+- Escreva um algoritmo para buscar apenas os números (pares E positivos) da lista
+
+Verifique os números da lista;
+Verifique se o primeiro número é maior do que zero; 
+Se sim, anotar esse número em uma outra linha
+Se não, descartar esse número
+Após isso, faça essa mesma verificação com os números próximos, um de cada vez, até verificar todos os números da lista;
+Com os números anotados em outra linha;
+Verifique se o primeiro número dessa nova linha que foi feita, quando dividido por 2, o resto dessa divisão é zero;
+Se não, desligue o número
+Se sim, deixe onde ele esta
+Siga para o número seguinte da nova lista até todos serem verificados.
+
+18 % 2 = 0 , 50, ...
+
+
+1 cheque o 1° número da lista
+2 se o primeiro numero é maior que zero
+3 salvar o número na caixa
+4 pegar o numero do box guardado 
+5 se ele teve o final 0 2 4 6 8
+6 salvar número no box1
+7 se tiver mais números 
+8 Voltar ao passo 1
+9 se nao 
+10 quando terminam os números
+11 pegar os números guardados no box1
+12 mostrar números salvos no box1
+
+
+
+Passo 1 = Escreva os numeros desejados: 
+Passo 2 = Números: [-31, 18, 50, 98, 4, -53, 1, -8, 15, 89, 24, -3, 0, 10, 15, 47, 50, 15, 1, 4]
+Passo 3 = Pegar um número da listagem em ordem do primeiro até o último
+Passo 4 = Se possível divir esse numero por ele mesmo em partes iguais, ele é par, passar para 
+o próximo passo, senão descarta-lo
+Passe 5 = Observar se esse numero é maior que zero
+Passo 6 = Se sim, anotar ele
+Passe 7 = Se não, descartar
+Passo 8 = Repetir o passo 3 até finalizar os números listados
+
+
+LÓGICA PROGRAMAÇÃO - aplicar todos esses fundamentos para resolver um problema
+
+-> dados - entrada -> entrada de dados -> 18
+
+-> informação - output -> saída/resultado -> maior idade
+
+-> estruturas condicionais - desvio de fluxos
+
+-> estruturas de repetição - formas de repetir um determinado conjunto de instruções
+
+-> rotinas - conjunto de instruções que são executadas conforme a necessidade
